@@ -31,6 +31,6 @@ Mia.printDetails()
 Noy=Student()
 Noy.changeDetails()
 Noy.printDetails()
-   
+#Make a car class   
 
 
