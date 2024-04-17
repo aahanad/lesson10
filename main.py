@@ -31,6 +31,22 @@ Mia.printDetails()
 Noy=Student()
 Noy.changeDetails()
 Noy.printDetails()
-#Make a car class   
+#Make a car class 
+class car():
+    def _init_(self):
+        self.color="teal"
+        self.model="outback"
+        self.size="large"
+        self.year_made=2022
+        self.company="Maserati"
+    def changeCar(self):
+        self.color=input("what color is the car")
+        self.model=input("what model is the car")
+        self.size=input("what size is your car?")
+        self.year_made=input("what year was the car made")
+        self.company=input("what company made this car")
+        print("the properties of the students are:",self.color,self.model,self.size,self.year_made,self.company)
+Lexus=car()
+Lexus.changeCar()
 
 
